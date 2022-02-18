@@ -9,6 +9,7 @@ header{
  header nav li {
     text-decoration: none;
     display: inline-block;
+    text-align: center;
 }
 main{
     background-color: #3A506B;
