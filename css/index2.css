@@ -1,4 +1,16 @@
 body {
-    background-color: #6fffe9;
+    background-color: #0B132B;
     font-family: 'Comfortaa', cursive;
+}
+header{
+    background-color: #6FFFE9;
+}
+main{
+    background-color: #3A506B;
+}
+aside{
+    background-color: #1C2541;
+}
+footer{
+    background-color: #5BC0BE;
 }
