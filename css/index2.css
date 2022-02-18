@@ -4,7 +4,6 @@ body {
 }
 header{
     background-color: #6FFFE9;
-    width: 90%;
 }
  header nav li {
     text-decoration: none;
@@ -16,17 +15,34 @@ aside{
     background-color: #1C2541;
     float: left;
     width: 30%;
-    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 20px;
+    padding: 20px 10px;
+    border-radius: 2%;
 }
 main{
     background-color: #3A506B;
     float: left;
-    width: 65%;
-    padding: 20px 20px 20px 20px;
+    width: 60%;
+    padding: 0px 10px;
+    border-radius: 2%;
 }
 
 footer{
     background-color: #5BC0BE;
     width: 100%;
     float: left;
+    text-align: center;
+    margin: 20px 0px;
+}
+article, h2, aside li{
+    color: aqua;
+}
+aside p, main p{
+    color: dodgerblue;
+}
+header nav ul li:hover{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
 }
