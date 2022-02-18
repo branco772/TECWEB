@@ -5,6 +5,7 @@ body {
 header{
     background-color: #6FFFE9;
     width: 90%;
+    text-align: center;
 }
  header nav li {
     text-decoration: none;
