@@ -4,7 +4,8 @@ body {
 }
 header{
     background-color: #6FFFE9;
-    width: 100%;
+    width: 80%;
+    margin-left: 20px;
 }
  header nav li {
     text-decoration: none;
@@ -24,4 +25,5 @@ aside{
 }
 footer{
     background-color: #5BC0BE;
+    width: 80%;
 }
