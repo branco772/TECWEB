@@ -10,13 +10,14 @@ header{
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    padding: 100px;
+    padding: 50px;
 }
 main{
     background-color: #3A506B;
 }
 aside{
     background-color: #1C2541;
+    float: left;
 }
 footer{
     background-color: #5BC0BE;
