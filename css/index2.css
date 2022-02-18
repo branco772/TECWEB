@@ -5,7 +5,6 @@ body {
 header{
     background-color: #6FFFE9;
     width: 100%;
-    margin-left: 20px;
 }
  header nav li {
     text-decoration: none;
@@ -17,7 +16,7 @@ main{
     background-color: #3A506B;
     float: left;
     width: 70%;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
 }
 aside{
     background-color: #1C2541;
