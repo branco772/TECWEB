@@ -10,15 +10,17 @@ header{
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
 main{
     background-color: #3A506B;
-    display: block;
+    float: left;
+    width: 70%;
 }
 aside{
     background-color: #1C2541;
     float: left;
+    width: 30%;
 }
 footer{
     background-color: #5BC0BE;
