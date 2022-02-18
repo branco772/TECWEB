@@ -1,4 +1,4 @@
-body {
+body{
     background-color: #0B132B;
     font-family: 'Comfortaa', cursive;
 }
@@ -45,4 +45,10 @@ header nav ul li:hover{
 }
 a{
     text-decoration: none;
+}
+img{
+    width: 60%;
+}
+audio{
+    width: 40%;
 }
