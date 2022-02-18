@@ -14,6 +14,7 @@ header{
 }
 main{
     background-color: #3A506B;
+    display: block;
 }
 aside{
     background-color: #1C2541;
