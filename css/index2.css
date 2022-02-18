@@ -12,17 +12,18 @@ header{
     text-align: center;
     padding: 40px;
 }
+aside{
+    background-color: #1C2541;
+    float: left;
+    width: 30%;
+}
 main{
     background-color: #3A506B;
     float: left;
     width: 70%;
     padding: 20px 20px 20px 20px;
 }
-aside{
-    background-color: #1C2541;
-    float: left;
-    width: 30%;
-}
+
 footer{
     background-color: #5BC0BE;
     width: 100%;
