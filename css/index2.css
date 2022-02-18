@@ -4,6 +4,11 @@ body {
 }
 header{
     background-color: #6FFFE9;
+    width: 100%;
+}
+ header nav li {
+    text-decoration: none;
+    display: inline-block;
 }
 main{
     background-color: #3A506B;
