@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/practica3.css">
+    <title>Practica3</title>
+</head>
+<body>
+    <h1>PRACTICA 3</h1>
+    <P>
+        Desarrolle una función en JavaScript que permita leer una temperatura
+        en grados Celsius y devuelva el clima según la siguiente tabla:<br>
+        Temperatura Clima <br>
+        -10 °C – 15 °C Frio<br>
+        16°C – 25 °C Templado<br>
+        26°C – 40 °C Calor<br>
+        Ejemplo. Temperatura = 20 Resultado = Templado
+    </P>
+    <form action="">
+        <label for="num">INGRESE LOS GRADOS CELCIUS</label><br>
+        <input type="text" name="num" id="num"> <br>
+        <label for="resultado"></label><br>
+        <button type="button" onclick="temperatura()">Calcular temperatura</button>
+    </form>
+    <p>
+        Desarrolle una función en JavaScript que permita leer un numero y
+        devuelva el factorial del mismo. <br>
+        Ejemplo. N= 5 Proceso 1*2*3*4*5 Resultado = 120
+    </p>
+    <form action="">
+        <label for="num">INGRESE UN NÚMERO</label><br>
+        <input type="text" name="fac" id="fac"> <br>
+        <label for=""></label><br>
+        <button type="button" onclick="factorial()">Calcular factorial</button>
+    </form>
+    <p>
+        Desarrolle una función en JavaScript que muestre el algoritmo Fizz-Buzz <br>
+        (Este algoritmo se basa en que se debe hacer un contador desde el
+        número 1 al número 100, en orden correlativo, pero cada vez que un
+        número sea múltiplo de 3, debe decir Fizz y cada vez que un número sea
+        múltiplo de 5, debe decir Buzz, en el caso que un número sea múltiplo de
+        3 y 5, debe decir FizzBuzz, si el número no es múltiplo de 3 o 5 no
+        mostrara nada) <br><strong>MODIFIQUE EL EJERCICIO HACIENDO QUE INGRESE UN NÚMERO 'X' Y MUESTRE HASTA ESE NÚMERO</strong>
+    </p>
+    <form action="">
+        <label for="num">INGRESE UN NÚMERO</label><br>
+        <input type="text" name="fb" id="fb"> <br>
+        <label for=""></label><br>
+        <button type="button" onclick="FIZZBUZZ()">Calcular factorial</button>
+        <label for="FIZZBUZZ()"></label>
+    </form>
+    <p>Desarrolle una función en JavaScript que muestre la fecha actual. <br>
+        Ejemplo: Jueves, 24 de Febrero del 2022</p>
+        <div class="fecha">
+            <strong><p id="diasemana" class="diasemana"></p>
+                <p id="dia" class="dia"></p>
+                <p>DE</p>
+                <p id="mes" class="mes"></p>
+                <p>DEL</p>
+                <p id="year" class="year"></p>
+            </strong>
+        </div>
+        <script src="/javascript/practica3.js"></script>
+</body>
+</html>
